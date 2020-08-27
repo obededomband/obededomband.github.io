@@ -21,7 +21,7 @@ var Post = function(id, title, body, date){
 Post.prototype.display = function(element){
     var $mainElement = $("<div></div>")
                         .addClass("post");
-    var $title = $("<a href='/static_pages/post.html?id=" + this.id + "'><h2></h2></a>")
+    var $title = $("<a href='/pages/post.html?id=" + this.id + "'><h2></h2></a>")
                         .text(this.title);
     var $body = $("<div></div>")
                         .html(this.body);
