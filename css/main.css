@@ -26,9 +26,8 @@ canvas{
   background: #000000;
   color: white;
   padding: 10px;
-  box-shadow: black 0.3em 0.3em 0.3em;
-  margin-bottom: 10px;
-  border-radius: 10px;
+  margin: 0vw 5vw 5vw 5vw;
+  border: 1px solid white;
 }
 
 .embeddedItem{
@@ -72,4 +71,9 @@ canvas{
 
 .header-right{
   float: right;
+}
+
+#footer{
+text-align: center;
+
 }
