@@ -1,19 +1,20 @@
 .jumbotron {
-    position: relative;
-    background: #ddd url("../images/background.jpg") center center;
-    box-shadow: 0.3em 0.3em 0.3em black;
+ 
+  position: relative;
     width: 100%;
     height: 100%;
+    background-color: black;
+    color: white;
+    font-family: courier;
     background-size: cover;
     overflow: hidden;
-    text-shadow: black 0.2em 0.2em 0.2em;
 }
 
 body{
-    font-family: 'Lora', 'Times New Roman', serif;
-    font-size: 20px;
-    color: #000000; 
-    background-color: #e9eaed;
+    font-family: 'courier';
+    font-size: 14px;
+    color: #ffffff; 
+    background-color: #000000;
 }
 
 canvas{
@@ -22,7 +23,8 @@ canvas{
 
 #Notes, .post, .content{
   margin-top: 10px;
-  background: #ffffff;
+  background: #000000;
+  color: white;
   padding: 10px;
   box-shadow: black 0.3em 0.3em 0.3em;
   margin-bottom: 10px;
@@ -56,4 +58,18 @@ canvas{
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   	display: none !important;
+}
+
+.header{
+  font-size: 80px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.header-left{
+  float: left;
+}
+
+.header-right{
+  float: right;
 }
