@@ -22,14 +22,16 @@ Post.prototype.display = function(element){
     var $mainElement = $("<div></div>")
                         .addClass("post");
     var $title = $("<a href='/pages/post.html?id=" + this.id + "'><h2></h2></a>")
-                        .text(this.title);
+    .text(this.title);
+    var $date = $("<br><i></i></br><br>")
+    .text(this.date);
     var $body = $("<div></div>")
-                        .html(this.body);
-    var $date = $("<br><i></i></br>")
-                        .text(this.date);
+    .html(this.body);
+    
     $title.appendTo($mainElement);
-    $body.appendTo($mainElement);
     $date.appendTo($mainElement);
+    $body.appendTo($mainElement);
+
     $mainElement.appendTo($(element));
 };
 

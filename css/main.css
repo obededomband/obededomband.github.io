@@ -31,8 +31,8 @@ canvas{
   background: #000000;
   color: white;
   padding: 10px;
-  margin: 0vw 3vw 3vw 3vw;
-  border: 1px solid white;
+  margin: 0vw 3vw 10vw 3vw;
+  border: 1px solid rgb(54, 54, 54);
 }
 
 .embeddedItem{
