@@ -33,6 +33,11 @@
       $(function(){$("#header").load("../layouts/header.html");});
       $(function(){$("#footer").load("../layouts/footer.html");});
     </script>
+    <style>
+      .redBackground{
+        background: rgb(66, 3, 3);
+      }
+    </style>
     
 </head>
 <body>
@@ -42,10 +47,19 @@
     </div>
     <div class="oddpost">
     <p>
-       What were you before you were <a href="/forbidden/rabbithole.html">this</a>?
+       What were you before you were <a id="goDeeper" href="/forbidden/rabbithole.html">this</a>?
     </p>
     </div>
 </div>
 <div id ="footer"></div>
+<script>
+  $("#goDeeper").hover(function(){
+    $("body").addClass("redBackground");
+    $("div").addClass("redBackground");
+  }, function(){
+    $("body").removeClass("redBackground");
+    $("div").removeClass("redBackground");
+  });
+</script>
 </body>
 </html>
