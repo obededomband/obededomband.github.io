@@ -1,0 +1,13 @@
+.scrobble{
+    z-index: -10;
+    width: 100%;
+    position: absolute;
+    top: 0 ;
+    right: 0;
+  }
+  
+  .scrobble img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }

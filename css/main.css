@@ -22,10 +22,6 @@ body{
     background-color: #000000;
 }
 
-canvas{
-    border-style: ridge;
-}
-
 #Notes, .post, .content{
   margin-top: 10px;
   background: #000000;
@@ -43,31 +39,12 @@ canvas{
   margin: 0vw 3vw 10vw 3vw;
 }
 
-.embeddedItem{
-  margin-top: 10px;
-  background: #ffffff;
-  padding: 10px;
-  box-shadow: black 0.3em 0.3em 0.3em;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  text-align:center;
-}
-
-.carousel-inner > .item > img {
-    margin: 0 auto;
-}
-
-.peopleCarouselImg img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
-}
-
 .hideCellStyle{
 	background-color: white;
 	border-top: none !important;
 	border-bottom: none !important;
 }
+
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   	display: none !important;
 }
@@ -87,20 +64,6 @@ canvas{
 }
 
 #footer{
-text-align: center;
-
+  text-align: center;
 }
 
-.scrobble{
-  z-index: -10;
-  width: 100%;
-  position: absolute;
-  top: 0 ;
-  right: 0;
-}
-
-.scrobble img {
-  flex-shrink: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
