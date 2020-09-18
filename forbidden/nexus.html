@@ -47,5 +47,21 @@
   <script src="../js/url/urlHelper.js"></script>
   <script>
     var param = getUrlParameters();
+    
+    var getText = function(p){
+      switch(p)
+      {
+        case 'f47a3b76-5e08-43df-aa87-3690484508ae':
+          return 'In the beginning, there was a "pleroma," a condition of perfection and thus of literal plenitude, in the divine <a href="./rabbithole.html">realm</a>. This realm was made up of God and the lesser divinities, themselves called aeons. Then, somehow, this unity was sundered, either from within or without. In the Iranian version it was riven from without, by some sort of opposing "dark force." (This presupposes, as Hans Jonas has noted, some yet more primal <a href="./nexus.html?id=9ecadb17-4066-4a48-8eb8-b6f0fcc8f58c">dualism</a> ["Gnosticism" 338].) In the words of one scholar of this (Manichean) version: "All existing things derive from one of these two: the infinite light of spiritual goodness or the bottomless darkness of evil matter, coexistent and totally opposed to each other" (Greenlees 167). A state of affairs ensued which is termed the "crisis in the pleroma," one result of which was the "falling" or "sinking" of some of the aeons, including (in Mani\'s system) "primal man." Of these, some became the archons (lords), who took charge of the various lower realms. The characteristics most typically found in them are judgment and jealousy, and their "creative" energies are spent in satisfying their "ambition, vanity, and lust for dominion" (Jonas 338).';
+        
+          return "<p>Put like  <a href='./rabbithole.html'>ahhhhhhhhhh</a> anything like you don't have to do this.</a>"
+          break;
+        case '9ecadb17-4066-4a48-8eb8-b6f0fcc8f58c':
+          return "<p>Why did you have to do <a href='./rabbithole.html'>that?</a>" 
+          break;
+      } 
+    }
+
+    $(".oddpost").append(getText(param["id"]));
   </script>
 </html>
