@@ -34,3 +34,8 @@
 .flipElement {
     transform: scaleY(-1);
 }
+
+.whiteText{
+    background: white;
+    color: black;
+}
