@@ -13,7 +13,7 @@
 }
 
 .shakeElement {
-    animation: shake 0.5s;
+    animation: shake 2s;
     animation-iteration-count: infinite;
 }
   

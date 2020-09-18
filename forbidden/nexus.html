@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Obed Edom | Hatred</title>
+    <title>Obed Edom | There's something down there...</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,7 +23,7 @@
     <meta property="twitter:title" content="Obed-Edom">
     <meta property="twitter:description" content="Obed Edom is an experimental/noise rock/performance art act from Huntsville, Alabama. We thank and cherish you.">
     <meta property="twitter:image" content="https://obed-edom.com/images/banner.png">
-
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/forbiddenStyles.css">
@@ -31,35 +31,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script>
       $(function(){$("#header").load("../layouts/header.html");});
-      $(function(){$("#footer").load("../layouts/footer.html");});
     </script>
-    <style>
-      .redBackground{
-        background: rgb(66, 3, 3);
-      }
-    </style>
     
 </head>
 <body>
-<div id ="header"></div>
-<div class="container">
-    <div class="jumbotron text-center">
-    </div>
-    <div class="oddpost">
-    <p>
-       What were you <a class="goDeeper" href="/forbidden/nexus.html?id=a">before</a> you were <a class="goDeeper" href="/forbidden/rabbithole.html">this</a>?
-    </p>
-    </div>
-</div>
-<div id ="footer"></div>
-<script>
-  $(".goDeeper").hover(function(){
-    $("body").addClass("redBackground");
-    $("div").addClass("redBackground");
-  }, function(){
-    $("body").removeClass("redBackground");
-    $("div").removeClass("redBackground");
-  });
-</script>
-</body>
+  <div id ="header"></div>
+  <div class="container">
+      <div class="jumbotron text-center">
+      </div>
+      <div class="oddpost">
+      </div>
+  </div>
+  <div id ="footer"></div>
+  </body>
+  <script src="../js/url/urlHelper.js"></script>
+  <script>
+    var param = getUrlParameters();
+  </script>
 </html>
