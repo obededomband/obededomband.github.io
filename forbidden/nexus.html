@@ -71,10 +71,18 @@
           break;
       }
     }
+    var addCSS = function(id){
+      switch(id){
+        case 'iujbh983983hg389hjhk4hh':
+          $('head').append('<link rel="stylesheet" href="../css/glitch.css" type="text/css" />');
+      }
+    }
 
     //add text
-    $(".oddpost").append(getText(param["id"]));
-    addStyle(param["id"]);
+    var id = param["id"];
+    $(".oddpost").append(getText(id));
+    addStyle(id);
+    addCSS(id);
 
     //add style
   </script>
