@@ -40,21 +40,21 @@
     <div class="jumbotron text-center">
     <h1>Dates.</h1>
     </div>
-    <div class="post"><p>Obed-Edom is returning to live shows on June 26th, 2021 with a pagan-inspired Midsommar show at <a href=https://www.leighacres.com/>Leigh Acres</a>, an outdoor farm venue located 15 minutes from downtown Huntsville. You can purchase tickets ahead of time for $6 with the secure PayPal link below. Tickets are also available for $8 at the door.</p>
+    <div class="post"><p>Obed-Edom is returning to live shows on June 26th, 2021 with a pagan-inspired Midsommar show at <a href=https://www.leighacres.com/>Leigh Acres</a>, an outdoor farm venue located 15 minutes from downtown Huntsville. You can purchase tickets ahead of time for $7 <a href=https://www.eventbrite.com/e/midsommars-festival-at-leigh-acres-tickets-151263409931/>here</a>. Tickets are also available for $10 at the door.</p>
         <p>This event will feature traditional midsummer-style festivities with fire, maypole dancing, food, vendors, and music. This event is BYOB and camping spots and other overnight accomodations are available by arrangement (directly with Leigh Acres).</p>
-        <p>Attendees are encouraged to wear white or floral clothing and bring an acoustic or percussive intrument to join in on group improvised folkmusic.</p><p>Doors open at 5. Music will run until 10:30 pm.</p><p>RSVP to Facebook event here.</p>
-        <p>BANDS:</p>
-        <p>Obed-Edom</p>
-        <p>XY Spaces</p>
-        <p>Drop Diver</p>
-        <p>Evelyna</p>
-        <p>INFO</p>
-        <p>Saturday, June 26, 2021. 5 pm til ?</p>
+        <p>Attendees are encouraged to wear white or floral clothing and bring an acoustic or percussive intrument to join in on group improvised folkmusic.</p><p>Doors open at 4. Amplified music will run until 10:30 pm.</p><p>RSVP to Facebook event <a href=https://www.facebook.com/events/279885293642747//>here</a>.</p>
+        <p style="font-size:20px">BANDS:</p>
+        <p style="font-size:30px"><a href=https://www.facebook.com/obededomband/>OBED-EDOM</a></p>
+        <p style="font-size:30px"><a href=https://www.facebook.com/XYspaces//>XY Spaces</a></p>
+        <p style="font-size:30px"><a href=https://www.facebook.com/DropDiver//>Drop Diver</a></p>
+        <p style="font-size:30px"><a href=https://www.facebook.com/evelynaband//>Evelyna</a></p>
+        <p style="font-size:20px">INFO</p>
+        <p>Saturday, June 26, 2021. 4 pm til ?</p>
         <p>Leigh Acres</p>
         <p>5655 Maysville Rd</p>
 <p>New Market, Alabama 35761</p>
         <p>BYOB</p>
-        <p>TICKETS: $8 at the door, $6 below:</p>
+        <p>TICKETS: $10 at the door, $7 <a href=https://www.eventbrite.com/e/midsommars-festival-at-leigh-acres-tickets-151263409931/>here</a>.</p>
         <br>
     <p>
         <div id="smart-button-container">
@@ -62,37 +62,6 @@
         <div id="paypal-button-container"></div>
       </div>
     </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
-
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"June 26 Midsommar online ticket","amount":{"currency_code":"USD","value":6}}]
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(details) {
-            alert('Transaction completed by ' + details.payer.name.given_name + '!');
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
     </p>
     </div>
 </div>
